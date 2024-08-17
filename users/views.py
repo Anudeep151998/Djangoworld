@@ -2,10 +2,11 @@ from django.shortcuts import render, redirect
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 from django.contrib import messages
 from django.views.decorators.http import require_http_methods
+from django.contrib.auth.decorators import login_required  
 
 # Create your views here.
 
-@require_http_methods(['GET', 'POST'])
+
 def register(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
@@ -21,7 +22,7 @@ def register(request):
     
     return render(request, 'users/register.html', {'form': form, 'title': 'Student Registration'})
 
-@require_http_methods(['GET', 'POST'])
+@login_required
 def profile(request):
     if request.method == 'POST':
         u_form = UserUpdateForm(request.POST, instance=request.user)

@@ -1,10 +1,16 @@
 {
     "version": 2,
     "builds": [
-      { "src": "requirements.txt", "use": "@vercel/python" }
+      {
+        "src": "Newwor1d/wsgi.py",
+        "use": "@vercel/python"
+      }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "Newwor1d/wsgi.py" }
+      {
+        "src": "/(.*)",
+        "dest": "Newwor1d/wsgi.py"
+      }
     ]
   }
   
