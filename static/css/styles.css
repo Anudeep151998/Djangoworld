@@ -9,11 +9,11 @@ body {
 
 /* Header and Navbar */
 .site-header, .navbar {
-    background-color: #343a40; /* Dark background */
+    background-color: #5b9dde; /* Dark background */
 }
 
 .site-header .navbar-nav .nav-link {
-    color: #ffffff; /* Light text color */
+    color: #100d0d; /* Light text color */
 }
 
 .site-header .navbar-nav .nav-link:hover {
