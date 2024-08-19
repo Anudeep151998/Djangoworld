@@ -24,6 +24,13 @@ ul {
     background-color: #627c85; /* Cooler steel color with a subtle blue tint */
 }
 
+/* Header Styling */
+.site-header {
+    background-color: #34495e; /* Deep, sophisticated blue for the header background */
+    padding: 20px 30px; /* Padding to create some space inside the header */
+    color: #ffffff; /* White text for contrast */
+}
+
 /* Navbar Links Styling */
 .site-header .navbar-nav .nav-link {
     color: #ffffff; /* Crisp white text for contrast */
