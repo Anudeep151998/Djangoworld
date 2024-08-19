@@ -24,13 +24,6 @@ ul {
     background-color: #627c85; /* Cooler steel color with a subtle blue tint */
 }
 
-/* Header Styling */
-.site-header {
-    background-color: #34495e; /* Deep, sophisticated blue for the header background */
-    padding: 20px 30px; /* Padding to create some space inside the header */
-    color: #ffffff; /* White text for contrast */
-}
-
 /* Navbar Links Styling */
 .site-header .navbar-nav .nav-link {
     color: #ffffff; /* Crisp white text for contrast */
@@ -42,6 +35,16 @@ ul {
 
 .site-header .navbar-nav .nav-link.active {
     font-weight: 600; /* Bold for active state */
+}
+
+/* Ensure the Navbar Brand is also visible */
+.navbar-brand {
+    color: #ffffff !important; /* Make sure the brand text is visible */
+}
+
+/* Ensure Navbar Toggler icon is visible */
+.navbar-toggler-icon {
+    filter: invert(100%); /* This makes sure the toggler icon is visible on dark backgrounds */
 }
 
 /* Content Section Styling */
