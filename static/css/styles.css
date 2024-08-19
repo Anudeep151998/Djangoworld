@@ -1,122 +1,41 @@
 /* General Body Styling */
 body {
-    background: #0202102a; /* Light, soft background for a clean look */
-    color: #333333; /* Standard dark text color for readability */
-    margin: 0; /* Reset margin to ensure consistent layout */
-    padding: 0; /* Reset padding to ensure consistent layout */
-    font-family: 'Roboto', sans-serif; /* Modern, clean font */
-}
-
-/* Headings Styling */
-h1, h2, h3, h4, h5, h6 {
-    color: #1a1a1a; /* Darker heading colors for emphasis */
-    margin: 0.5rem 0; /* Spacing around headings for better layout */
-}
-
-/* List Styling */
-ul {
+    background: #0000082a; /* Dark background */
+    color: #333333; /* Text color */
     margin: 0;
-    padding-left: 20px; /* Standard padding for better list formatting */
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Background Color */
-.bg-steel {
-    background-color: #627c85; /* Cooler steel color with a subtle blue tint */
+/* Header and Navbar */
+.site-header, .navbar {
+    background-color: #343a40; /* Dark background */
 }
 
-/* Navbar Links Styling */
 .site-header .navbar-nav .nav-link {
-    color: #0e0d0d; /* Crisp white text for contrast */
+    color: #ffffff; /* Light text color */
 }
 
 .site-header .navbar-nav .nav-link:hover {
-    color: #ffeb3b; /* Vibrant yellow for a lively hover effect */
+    color: #ffeb3b; /* Yellow on hover */
 }
 
-.site-header .navbar-nav .nav-link.active {
-    font-weight: 600; /* Bold for active state */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #080808; /* Light color for contrast */
 }
 
-/* Ensure the Navbar Brand is also visible */
-.navbar-brand {
-    color: #ffffff !important; /* Make sure the brand text is visible */
-}
-
-/* Ensure Navbar Toggler icon is visible */
-.navbar-toggler-icon {
-    filter: invert(100%); /* This makes sure the toggler icon is visible on dark backgrounds */
-}
-
-/* Content Section Styling */
+/* Content and Articles */
 .content-section {
-    background: #ffffff; /* Clean white background */
-    padding: 20px 30px; /* Ample padding for a balanced layout */
-    border: 1px solid #dcdde1; /* Light border for subtle separation */
-    border-radius: 8px; /* Smooth, rounded corners */
-    margin-bottom: 30px; /* Spacing below sections */
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background: #ffffff; /* White background for content */
+    color: #1a1a1a; /* Dark text color */
 }
 
-/* Article Title Styling */
-.article-title {
-    color: #1a1a1a; /* Dark color for better readability */
-    font-weight: 600; /* Bolder titles for prominence */
+/* Ensure consistent styling for elements */
+a {
+    color: #1a1a1a; /* Ensure link color */
 }
 
-a.article-title:hover {
-    color: #e67e22; /* Bright orange on hover for contrast */
-    text-decoration: underline; /* Underline for clarity */
-}
-
-/* Article Content Styling */
-.article-content {
-    white-space: pre-line;
-    line-height: 1.7; /* Comfortable line spacing for readability */
-}
-
-/* Article Image Styling */
-.article-img {
-    height: 80px; /* Consistent size for images */
-    width: 80px;
-    margin-right: 20px;
-    border-radius: 50%; /* Rounded images for a modern look */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-}
-
-/* Article Metadata Styling */
-.article-metadata {
-    padding-bottom: 5px; /* Sufficient padding for spacing */
-    margin-bottom: 10px;
-    border-bottom: 1px solid #dcdde1; /* Light, subtle border */
-    color: #95a5a6; /* Soft grey for metadata */
-}
-
-.article-metadata a:hover {
-    color: #34495e; /* Darker hover effect to match headings */
-    text-decoration: underline; /* Underline for better visibility */
-}
-
-/* SVG Icon Styling */
-.article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    fill: #e74c3c; /* Rich red for SVG icons to add warmth */
-}
-
-/* Account Profile Image Styling */
-.account-img {
-    height: 160px; /* Larger profile image for emphasis */
-    width: 160px;
-    margin-right: 25px;
-    margin-bottom: 20px;
-    border-radius: 50%; /* Rounded profile images */
-    border: 3px solid #b9d9ee; /* Blue border for definition */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-}
-
-/* Account Profile Heading Styling */
-.account-heading {
-    font-size: 2.7rem;
-    color: #34495e; /* Deep, sophisticated blue for profile headings */
+a:hover {
+    color: #e67e22; /* Bright orange on hover */
 }
