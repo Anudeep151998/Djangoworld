@@ -26,7 +26,7 @@ ul {
 
 /* Navbar Links Styling */
 .site-header .navbar-nav .nav-link {
-    color: #ffffff; /* Crisp white text for contrast */
+    color: #0e0d0d; /* Crisp white text for contrast */
 }
 
 .site-header .navbar-nav .nav-link:hover {
