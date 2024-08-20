@@ -28,10 +28,10 @@ load_dotenv()
 SECRET_KEY = '3OKQZ36nOkkJy-lbfqXvRjRPjSUNMcDF5dm-ii6oOeV4biA_TyZpINKwMGTYEydzdDE'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
-#ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = []
 
 
 
@@ -134,9 +134,10 @@ USE_TZ = True
 
 
 # Add the path to the directory where your static files are located
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'itreporting/static'),
+STATICFILES_DIRS= [
+    os.path.join(BASE_DIR, 'static'),
 ]
+
 STATIC_URL = '/static/'
 # Directory where collectstatic will gather static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
