@@ -12,7 +12,9 @@
           crossorigin="anonymous"/>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css?v=1.1' %}" />
+    <!-- Correctly use the static template tag -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+
 
 
     <title>Student IT Services - {{ title }}</title>
