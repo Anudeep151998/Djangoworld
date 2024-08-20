@@ -131,13 +131,13 @@ USE_TZ = True
 
 
 
-STATIC_URL = '/static/'
+
 
 # Add the path to the directory where your static files are located
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'itreporting/static'),
 ]
-
+STATIC_URL = '/static/'
 # Directory where collectstatic will gather static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
