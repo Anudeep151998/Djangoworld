@@ -129,9 +129,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 
-# Define the path to collect static files
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
 STATIC_URL = '/static/'
+
+# Add the path to the directory where your static files are located
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'itreporting/static'),
+]
+
+# Directory where collectstatic will gather static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 
 MEDIA_ROOT = BASE_DIR / 'media'

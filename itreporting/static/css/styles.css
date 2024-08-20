@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+  background: #f0e9e9;
+  color: #dc3545; /* Improved text color for visibility */
+  margin-top: 5rem;
+}
+
+/* Header Text Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #a9ccf0; /* Maintain visibility with a distinct color */
+}
+
+/* List Styling */
+ul {
+  margin: 0;
+}
+
+/* Background Color for Specific Elements */
+.bg-steel {
+  background-color: #5f788a;
+}
+
+/* Navbar Link Styling */
+.site-header .navbar-nav .nav-link {
+  color: #5da2f7; /* Ensure color is visible against the background */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #cc1c1c; /* Distinct hover color for visibility */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+/* Content Section Styling */
+.content-section {
+  background: #b9816f2d;
+  padding: 10px 20px;
+  border: 1px solid #a49af1; /* Ensure border is visible */
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/* Article Title Styling */
+.article-title {
+  color: #ffffff; /* Improved color for better visibility on dark backgrounds */
+}
+
+a.article-title:hover {
+  color: #e16ee7; /* Maintain visibility on hover */
+  text-decoration: none;
+}
+
+/* Article Content and Metadata Styling */
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3; /* Ensure metadata border is visible */
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.article-metadata a:hover {
+  color: #f87777; /* Distinct hover color for links */
+  text-decoration: none;
+}
+
+/* Account Image and Heading Styling */
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  color: #ffffff; /* Ensure heading text is visible on dark backgrounds */
+}
