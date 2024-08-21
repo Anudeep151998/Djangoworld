@@ -139,8 +139,8 @@ STATICFILES_DIRS= [
 ]
 
 STATIC_URL = '/static/'
-# Directory where collectstatic will gather static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 
 
