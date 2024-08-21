@@ -19,4 +19,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Newwor1d.settings')
 # Get the WSGI application for the Django project.
 application = get_wsgi_application()
 app = application
-handler = application
