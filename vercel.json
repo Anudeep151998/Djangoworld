@@ -3,22 +3,17 @@
     "builds": [
         {
             "src": "Newwor1d/wsgi.py",
-            "use": "@vercel/python",
-            "config": {
-                "maxLambdaSize": "15mb",
-                "runtime": "python3.12",
-                "maxDuration": 60
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/static/(.*)",
-            "dest": "Newwor1d/staticfiles/$1"  
+            "dest": "Newwor1d/staticfiles/$1"
         },
         {
             "src": "/media/(.*)",
-            "dest": "/media/$1"  
+            "dest": "Newwor1d/media/$1"
         },
         {
             "src": "/(.*)",
